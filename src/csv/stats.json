@@ -1,0 +1,166 @@
+{
+  "stats": [
+    {
+      "header": {
+        "cloc_url": "http://cloc.sourceforge.net",
+        "cloc_version": 1.6,
+        "elapsed_seconds": 64.0897738933563,
+        "n_files": 4997,
+        "n_lines": 1673628,
+        "files_per_second": 77.9687568927123,
+        "lines_per_second": 26113.8072164972,
+        "report_file": "txt.txt"
+      },
+      "Javascript": {
+        "nFiles": 3790,
+        "blank": 191056,
+        "comment": 265604,
+        "code": 1016299
+      },
+      "HTML": {
+        "nFiles": 301,
+        "blank": 5741,
+        "comment": 2073,
+        "code": 62974
+      },
+      "LESS": {
+        "nFiles": 336,
+        "blank": 5515,
+        "comment": 4013,
+        "code": 26527
+      },
+      "CSS": {
+        "nFiles": 114,
+        "blank": 1557,
+        "comment": 465,
+        "code": 20620
+      },
+      "ActionScript": {
+        "nFiles": 112,
+        "blank": 1231,
+        "comment": 2593,
+        "code": 16451
+      },
+      "XML": {
+        "nFiles": 21,
+        "blank": 3019,
+        "comment": 1289,
+        "code": 8336
+      },
+      "YAML": {
+        "nFiles": 86,
+        "blank": 1033,
+        "comment": 125,
+        "code": 6388
+      },
+      "C": {
+        "nFiles": 13,
+        "blank": 480,
+        "comment": 608,
+        "code": 4258
+      },
+      "C++": {
+        "nFiles": 20,
+        "blank": 888,
+        "comment": 725,
+        "code": 4029
+      },
+      "SASS": {
+        "nFiles": 35,
+        "blank": 1202,
+        "comment": 147,
+        "code": 3342
+      },
+      "C/C++ Header": {
+        "nFiles": 18,
+        "blank": 473,
+        "comment": 375,
+        "code": 2238
+      },
+      "make": {
+        "nFiles": 69,
+        "blank": 623,
+        "comment": 781,
+        "code": 2004
+      },
+      "Go": {
+        "nFiles": 12,
+        "blank": 251,
+        "comment": 193,
+        "code": 1855
+      },
+      "Python": {
+        "nFiles": 6,
+        "blank": 319,
+        "comment": 494,
+        "code": 1782
+      },
+      "Perl": {
+        "nFiles": 2,
+        "blank": 93,
+        "comment": 170,
+        "code": 605
+      },
+      "DTD": {
+        "nFiles": 1,
+        "blank": 179,
+        "comment": 177,
+        "code": 514
+      },
+      "CoffeeScript": {
+        "nFiles": 16,
+        "blank": 103,
+        "comment": 49,
+        "code": 495
+      },
+      "Bourne Shell": {
+        "nFiles": 21,
+        "blank": 106,
+        "comment": 26,
+        "code": 378
+      },
+      "D": {
+        "nFiles": 16,
+        "blank": 0,
+        "comment": 0,
+        "code": 293
+      },
+      "Bourne Again Shell": {
+        "nFiles": 2,
+        "blank": 20,
+        "comment": 21,
+        "code": 125
+      },
+      "Ruby": {
+        "nFiles": 2,
+        "blank": 49,
+        "comment": 18,
+        "code": 121
+      },
+      "DOS Batch": {
+        "nFiles": 1,
+        "blank": 24,
+        "comment": 2,
+        "code": 64
+      },
+      "Cython": {
+        "nFiles": 2,
+        "blank": 2,
+        "comment": 0,
+        "code": 12
+      },
+      "Lisp": {
+        "nFiles": 1,
+        "blank": 0,
+        "comment": 0,
+        "code": 6
+      },
+      "SUM": {
+        "blank": 213964,
+        "code": 1179716,
+        "comment": 279948,
+        "nFiles": 4997
+      }
+    }
+  ]
+}

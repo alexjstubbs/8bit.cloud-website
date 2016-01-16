@@ -1,0 +1,235 @@
+/* ignition.io stylesheet - alex stubbs
+-------------------------------------------------- */
+
+@import url('bootstrap/less/bootstrap.less');
+@import url('//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700');
+@import url('//code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css');
+@import url('//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css');
+@import url('//cdn-images.mailchimp.com/embedcode/slim-081711.css');
+
+/* Rules
+-------------------------------------------------- */
+@black: #111;
+@purple: #7100fe;
+@gray: #343434;
+@white: #fff;
+@light-gray: #cccccc;
+@blue: #5a00ff;
+@section: #242424;
+@sand: #E45A3D;
+
+/* Main
+-------------------------------------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background:@black;
+    font-weight:100;
+}
+
+a, a:link {
+    color:@gray;
+}
+
+a:hover {
+    text-decoration:none;
+    color:lighten(@gray, 20%);
+}
+
+header #logo h2 {
+    color:@white;
+    .pull-left;
+    font-weight:100;
+}
+
+header #logo h2 span {
+    color:@purple;
+}
+
+header #logo .tagline {
+    float:left;
+    font-weight:100;
+    color:@light-gray;
+    padding:30px 15px;
+}
+
+header #signup {
+    text-align:right;
+    padding:30px;
+}
+
+
+.mc-field-group{
+    background-color: #ccffcc; /*****This is the lime green color in my example, change it to any hexidecimal color you want ****/
+    padding: 10px;
+}
+
+#mc_embed_signup {
+    text-align:center !important;
+    color:@white;
+    font-size:1.5em;
+    padding:10px;
+    margin:0 auto !important;
+}
+
+#mc_embed_signup h2 {
+    text-align:center;
+    font-weight: 100;
+    font-size:3em;
+    padding:20px 0;
+}
+
+
+input.email {
+    width:100% !important;
+}
+
+input {
+    background:@black !important;
+    border:1px solid @gray !important;
+}
+
+input#mc-embedded-subscribe {
+    text-transform: lowercase;
+}
+
+
+#mc_embed_signup .col-md-6 {
+    color:@white;
+    padding:10px 0;
+}
+
+.look {
+    color:@white;
+    font-weight:100;
+    text-align:center;
+    margin:25px;
+    font-size:5em;
+}
+
+.scorecard ul {
+    list-style-type: none;
+    color:@gray;
+    margin:50px 0;
+    text-align:center;
+    height:180px;
+}
+
+.scorecard ul li i {
+    font-size:2em;
+    color:@gray;
+    padding:0 15px 0 0;
+    position:relative;
+    top:10px;
+}
+
+.scorecard ul li span.moment {
+    color:@white;
+    font-size:1.3em;
+    font-weight:normal;
+}
+
+.scorecard ul li {
+    color:@white;
+    font-size:2em;
+    color:darken(@white, 40%);
+}
+
+.scorecard ul li span.copy {
+    font-size:0.8em;
+    display:block;
+    text-align:center;
+    margin-right:-30px;
+    padding:10px 0;
+}
+
+.release-status {
+    position:relative;
+    width:338px;
+    height:258px;
+    margin:0 auto;
+    text-align:center;
+    overflow:hidden;
+    background:url('thermo.png') bottom center no-repeat;
+}
+
+.filler {
+    width:30px;
+    // background:@blue;
+    #gradient.vertical(@purple; @blue; 0%; 100%);
+    text-align:center;
+    margin:0 auto;
+    position:absolute;
+    bottom:0;
+    left:154px;
+    border-radius: 30px 30px 0 0;
+ }
+
+.plotter {
+    width:100%;
+    min-height:300px;
+    background:@section;
+
+
+}
+
+#development {
+    background:url(boards.png) bottom center no-repeat;
+    background-position:40% 410px;
+}
+
+footer {
+    color:@white;
+    padding:40px;
+    text-align:center;
+    font-size:1.2em;
+}
+/* Media Queries
+-------------------------------------------------- */
+
+@media (max-width: @screen-md-max) { 
+    header #logo .tagline {
+        padding:15px 15px !important;
+    }
+    span.moment  {
+        font-size:1em !important;
+    }
+}
+
+@media (max-width: @screen-sm-max) { 
+    header #logo .tagline {
+        padding:30px 15px !important;
+        display:none;
+    }
+      input.btn {
+        .btn-block;
+    }
+
+    .look {
+        font-size:3em;
+    }
+     .scorecard ul {
+        height:400px;
+        margin-left:-40px;
+     }
+}
+
+@media (max-width: @screen-xs-max) { 
+    header #logo h2 {
+        text-align:center;
+        float:none !important;
+    }
+
+    input.btn {
+        .btn-block;
+    }
+
+     .look {
+        font-size:2em;
+     }
+
+     .scorecard ul {
+        height:400px;
+        margin-left:-40px;
+     }
+}
