@@ -23,10 +23,8 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
   && tar -xzf "node-v$NODE_VERSION-linux-x64.tar.gz" -C /usr/local --strip-components=1 \
   && rm "node-v$NODE_VERSION-linux-x64.tar.gz" SHASUMS256.txt.asc
 
-# Provides cached layer for node_modules
-ADD package.json /tmp/package.json
-RUN cd /tmp && npm install
-RUN mkdir -p /src && cp -a /tmp/node_modules /src/
+COPY ./src /src
+RUN cd /src; npm install
 
 # Define working directory
 WORKDIR /src
@@ -37,4 +35,5 @@ EXPOSE  8080
 
 # Run app
 CMD ["nodejs", "/src/app.js"]
+
 
