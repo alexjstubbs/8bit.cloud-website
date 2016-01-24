@@ -31,9 +31,7 @@ WORKDIR /src
 ADD . /src
 
 # Expose port
-EXPOSE  8080
+EXPOSE 8080
 
 # Run app
 CMD ["node", "/src/app.js"]
-
-
