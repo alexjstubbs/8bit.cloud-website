@@ -41,7 +41,8 @@
                     <li class="col-md-4"><i class="ion-code"></i><span class="moment" id="lines"><img src="pac.gif"></span>
 
                         <span class="copy">lines of code written</span></li>
-                    <li class="col-md-4"><i class="ion-fork-repo"></i><span class="moment" id="builds">6+</span>
+                    <li class="col-md-4"><i class="ion-fork-repo"></i><span class="moment" id="builds">
+                    <i class="ion-ios-infinite-outline white"  data-placement="top" data-toggle="tooltip" title="  We aim to run on nearly everything"></i></span>
 
                         <span class="copy">current platform builds</span></li>
                     <li class="col-md-4"><i class="ion-clock"></i><span class="moment" id="commit"><img src="pac.gif"></span> <span class="copy">since last code commit</span></li>
@@ -77,10 +78,19 @@
                     <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-lg">
                 </div>
             </form>
+
+            <div class="clearfix"></div>
+    
+                <span class="col-offset-3">
+                    <a class="white" href="https://slackignition.azurewebsites.net/">Come chat with us on &nbsp; <img src="slack.png" alt="Slack"></a>
+                </div>
+        
+
             </div>
 
         <!--End mc_embed_signup-->
 
+    
     </div>
 
 </div>
@@ -91,10 +101,16 @@
     <p>copyright &amp;copy 2016 <a href="http://www.alexstubbs.com">alexander stubbs</a> and ignition.io. all rights reserved. </p>
 </footer>
 
-    <script type="text/javascript" src="https://ignitionio.atlassian.net/s/cad3f9d3b384512741be7238aac15216-T/en_US-82r8zm/70102/bde66af65801ad728dc34492abc9e09f/2.0.7/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=e5b5c7d9"></script>
-
+<script type="text/javascript" src="https://ignitionio.atlassian.net/s/cad3f9d3b384512741be7238aac15216-T/en_US-82r8zm/70102/bde66af65801ad728dc34492abc9e09f/2.0.7/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=e5b5c7d9"></script>
 
 <script type="text/javascript" src="/site.build.js"></script>
+
+<script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip({
+      })
+    })
+</script>
 
 <div class="hidden" id="fStat">{{stats}}</div>
 
